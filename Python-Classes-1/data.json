@@ -1,0 +1,26 @@
+{
+  "Course" : {
+    "3ai": {
+      "year": 3,
+      "section": "A",
+      "spec": "Ini"
+    },
+    "3bi": {
+      "year": 3,
+      "section": "B",
+      "spec": "Ini"
+    }
+  },
+  "Pupils": {
+      "3ai" : [
+      {"name": "p10", "surname" : "p30" , "dob": " 2001-09-11"},
+      {"name": "p11", "surname" : "p31" , "dob": " 2000-10-11"},
+      {"name": "p12", "surname" : "p32" , "dob": " 2001-08-11"}
+      ],
+      "3bi" : [
+      {"name": "p43", "surname" : "p33" , "dob": " 2002-09-10"},
+      {"name": "p13", "surname" : "p34" , "dob": " 2001-10-10"},
+      {"name": "p15", "surname" : "p35" , "dob": " 2000-08-10"}
+      ]
+  }
+}
