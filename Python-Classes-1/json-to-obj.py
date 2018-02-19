@@ -15,6 +15,7 @@ class Course(object):
             print(pupil)
         print("=== === === === ===\n\n")
 
+        
 class Pupil(object):
     def __init__(self, course, name, surname, dob):
         self.course = course #course attended by the pupil
@@ -25,6 +26,7 @@ class Pupil(object):
     def __str__(self):
         return "-Name: %s\n-Surname: %s\n-Date of Birth: %s\n-Course: %s\n" % (self.name, self.surname, self.dob, self.course)
 
+    
 def main():
     with open("data.json", "r") as file:
         raw_data = json.load(file)
